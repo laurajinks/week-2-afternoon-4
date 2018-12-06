@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background: #0828CC;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    /* display: flex; */
+}
+
+nav {
+    background: #0828CC;
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 120px;
+    font-size: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+.logo {
+    justify-self: flex-start;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.navRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.subscribe {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 16px;
+    margin-right: 40px;
+}
+
+.navButton {
+    background-color: #ffffff;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    color: black;
+    margin-right: 40px;
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.main {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    margin: 0px auto;
+    background: #0828CC;
+    justify-content: center;
+    color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+h4 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px auto;
+    line-height: 2.5;
+    padding: 0px 70px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 40px;
+    right: 40px;
+    position: fixed;
+}
+
+.startButton {
+    background: white;
+    padding: 15px 50px;
+    color: #0828CC;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.scroll {
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: aktiv-grotesk, sans-serif;
+}
+
+.footerBtn {
+    width: 40px;
+    height: 40px;
+    background: #0828CC;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bottomLeft {
+    display: flex;
+}
+
+.invision {
+    color: white;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 12px;
+    bottom: 100px;
+    left: 10px;
+    position: fixed;
+    /* writing-mode: vertical-rl;
+    text-orientation: sideways-right; */
+    transform: rotate(270deg)
+}
